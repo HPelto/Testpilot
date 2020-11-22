@@ -1,0 +1,100 @@
+/* Overall */
+body {
+  font-family: "Signika", sans-serif;
+  background-color: #191919;
+}
+
+/* NavBar */
+.nav-wrapper {
+  display: flex;
+  justify-content: space-between;
+  padding-top: 38px;
+  padding-bottom: 10px;
+  padding-left: 38px;
+  padding-right: 38px;
+}
+
+.middle {
+  display: flex;
+}
+
+.left-side {
+  margin-bottom: 5px;
+}
+
+.right-side {
+  margin-top: 12px;
+  display: flex;
+}
+
+.signin {
+  margin-right: 20px;
+  color: #ff78b3;
+  font-weight: bold;
+}
+
+.signup {
+  margin-top: -13px;
+}
+
+.nav-wrapper > .middle > div {
+  margin-right: 20px;
+  font-size: 1.3em;
+}
+
+.nav-link-wrapper {
+  height: 22px;
+  border-bottom: 2px solid transparent;
+  transition: border-bottom 0.5s;
+  margin-top: 13px;
+}
+
+.nav-link-wrapper a {
+  color: #8a8a8a;
+  text-decoration: none;
+  transition: color 0.5s;
+}
+
+/* .nav-link-wrapper:hover {
+  border-bottom: 2px solid #ff78b3;
+}
+*/
+.nav-link-wrapper a:hover {
+  color: #ff78b3;
+}
+
+.brand img {
+  height: 40px;
+  width: auto;
+  margin-right: 20px;
+}
+
+.btn {
+  -webkit-border-radius: 6;
+  -moz-border-radius: 6;
+  border-radius: 6px;
+  font-family: Arial;
+  font-weight: bold;
+  color: white;
+  font-size: 14px;
+  background: #ff78b3;
+  padding: 10px 25px 10px 25px;
+  text-decoration: none;
+  float: left;
+  margin-top: 5px;
+}
+
+.btn:hover {
+  background: #ffadd2;
+  text-decoration: none;
+}
+
+.page-content {
+  display: flex;
+  justify-content: space-between;
+}
+
+.showcase-image img {
+  max-width: 100%;
+  height: auto;
+}
